@@ -1,1 +1,1 @@
-# Srint_6
+# Sprint_6_Project
