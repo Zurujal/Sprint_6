@@ -1,6 +1,9 @@
+import allure
+
 
 class TestOrderPage:
 
+    @allure.title("Проверка возможности заказа самоката")
     def test_successful_order(self, main_page, order_page):
         main_page.confirm_cookies()
         main_page.click_on_upper_order_button()

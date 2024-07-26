@@ -1,7 +1,8 @@
 import helpers
+import allure
+
 from pages.base_page import BasePage
 from locators.order_page_locators import OrderPageLocators
-import allure
 
 
 class OrderPage(BasePage):

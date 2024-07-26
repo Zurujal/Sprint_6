@@ -17,5 +17,3 @@ class OrderPageLocators:
     CONFIRM_BUTTON = By.XPATH, '//*[@class="Button_Button__ra12g Button_Middle__1CSJM"]'
     YES_BUTTON = By.XPATH, '//*[text()="Да"]'
     SUCCESSFUL_ORDER_HEADER = By.XPATH, '//*[@class="Order_ModalHeader__3FDaJ"]'
-
-

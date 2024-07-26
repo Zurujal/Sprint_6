@@ -1,5 +1,6 @@
 import data
 import random
+
 from faker import Faker
 
 

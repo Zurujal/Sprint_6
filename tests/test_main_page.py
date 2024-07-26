@@ -1,9 +1,12 @@
-from data import Answers
+import allure
 import pytest
+
+from data import Answers
 
 
 class TestMainPage:
 
+    @allure.title("Проверка соответствия текста ответов эталонному")
     @pytest.mark.parametrize(
         "q_num,expected_result",
         [
